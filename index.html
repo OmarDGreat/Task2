@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introduction to Colorado</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Welcome to Colorado</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="denver.html">Denver</a></li>
+        <li><a href="boulder.html">Boulder</a></li>
+        <li><a href="aurora.html">Aurora</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <p class="center">
+        Colorado Wiki:
+        <a href="https://en.wikipedia.org/wiki/Colorado" target="_blank"
+          >Here</a
+        >
+      </p>
+      <div class="center content-wrapper">
+        <ol>
+          <h4>Places to visit in order</h4>
+          <li>Boulder</li>
+          <li>Denver</li>
+          <li>Aurora</li>
+        </ol>
+        <!-- Unordered List -->
+        <ul>
+          <h4>Things to do</h4>
+          <li>Eat</li>
+          <li>Ski</li>
+          <li>Hike</li>
+        </ul>
+      </div>
+
+      <br />
+
+      <!-- Table -->
+      <div class="content-wrapper center">
+        <!-- Table -->
+        <table>
+          <tr>
+            <th>City</th>
+            <th>Population</th>
+            <th>Year</th>
+            <th>Region</th>
+            <th>Income Level</th>
+          </tr>
+          <tr>
+            <td>Denver</td>
+            <td>735,816</td>
+            <td>1858</td>
+            <td>Urban</td>
+            <td>$51,000</td>
+          </tr>
+          <tr>
+            <td>Boulder</td>
+            <td>104,861</td>
+            <td>1875</td>
+            <td>Suburban</td>
+            <td>$55,000</td>
+          </tr>
+          <tr>
+            <td>Aurora</td>
+            <td>374,286</td>
+            <td>1868</td>
+            <td>Urban</td>
+            <td>$43,000</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="center">
+        <img src="./images/colorado2.jpg" alt="Colorado Image" style="width: 100%; height: 300px; object-fit:contain;"/>
+      </div>
+      <div class="container">
+        <div class="content-wrapper">
+          <section>
+            <h2>About Colorado</h2>
+            <p>
+              Colorado, known as the Centennial State, is a stunning landscape
+              of mountains, plateaus, and plains. With its diverse geography, it
+              offers outdoor enthusiasts a paradise for activities such as
+              hiking, skiing, and mountain biking. The state is also famous for
+              its vibrant cultural scene, historic sites, and welcoming
+              communities.
+            </p>
+            <p>
+              The capital of Colorado is Denver, a bustling city at the base of
+              the Rocky Mountains. Beyond Denver, you'll discover charming towns
+              like Boulder and Aurora, each with its unique character and
+              attractions.
+            </p>
+            <p>
+              Explore the natural beauty of Colorado, from the majestic peaks of
+              the Rockies to the serene lakes and lush forests. Whether you're
+              an adventure seeker or a lover of arts and culture, Colorado has
+              something for everyone.
+            </p>
+          </section>
+          <!-- Aside -->
+          <aside>
+            <h3>Additional Information</h3>
+            <p>
+              Did you know that Colorado is home to the world's largest flat-top
+              mountain? Grand Mesa, located in western Colorado, offers
+              breathtaking views and a haven for outdoor activities.
+              Additionally, the state is renowned for its craft breweries,
+              vibrant music festivals, and rich history of Native American
+              heritage.
+            </p>
+          </aside>
+        </div>
+
+        <form>
+          <div class="label-fields">
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              id="firstName"
+              placeholder="Enter your first name"
+              required
+            />
+
+            <label for="lastName">Last Name:</label>
+            <input
+              type="text"
+              id="lastName"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+
+          <div class="label-fields">
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <label for="confirmEmail">Confirm Email:</label>
+            <input
+              type="email"
+              id="confirmEmail"
+              placeholder="Confirm your email address"
+              required
+            />
+          </div>
+
+          <div class="full-row">
+            <label for="question">Your Question:</label>
+            <textarea id="question" placeholder="Ask your question"></textarea>
+          </div>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
